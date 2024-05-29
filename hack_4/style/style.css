@@ -1,0 +1,131 @@
+:root{
+    --bg-mostaza: #B88940;
+    --bg-amarillo: #FFBD59;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigator{
+    width: 50%;
+    height: 100px;
+}
+
+.sale-banner {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.season{
+    font-size: 20px ;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-block-end: 1px;
+}
+
+.sale{
+    font-size: 115px;
+    font-weight :bold;
+    letter-spacing: 10px;
+    color: #B88940;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+
+.off{
+    font-size: 50px; 
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 1px 0 1px 0;
+}
+
+.loremip{
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 1px 0 80px 0;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.block{
+    flex-direction: column;
+    background: #FFBD59;
+    width: 1200px;
+    height: 30px;
+    margin: 0px 0 20px 0;
+    position: relative;
+    top: 50px;
+    
+}
+
+.product1{
+    width: 200px;
+    position: absolute;
+    margin: 0 410px 0 0;
+}
+
+.product2{
+    width: 200px;
+    position: absolute;
+}
+
+.product3 {
+    width: 200px;
+    position: absolute;
+    margin: 0 0 0 410px;
+}
+
+.product1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 1px;
+}
+
+.end{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+    
+.fashion{
+    font-size: 40px;
+    font-weight :bold;
+    letter-spacing: 8px;
+    color: #B88940;
+    margin: 30px 0 1px 0;
+}
+    
+.lorem{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px; 
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 1px 0 1px 0;
+}

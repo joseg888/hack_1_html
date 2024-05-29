@@ -1,0 +1,220 @@
+:root{
+    --bg-GREENCIRCLE: #7ED957 ;
+    --bg-GREEN: #00BF63;
+    --bg-text: #EEEEEE
+    
+}
+
+*{
+    font-family: arimo, arial, helvetica;
+}
+
+.navigator {
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #7ED957;
+    float: left;
+    transform: translate(700%, 40%);
+}
+
+.linea{
+    float: left;
+    transform: translate(100%, -20%);
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.soluciones{
+    float: right;
+    transform: translate(-50%, 50%);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.container {
+    height: 400px;
+    width: 100%;
+    background-image: url('/img/2.png');
+    background-size: 100% 900px;
+    background-position: 0cm -7cm;
+    background-repeat: no-repeat; 
+    color: #eeeeee;
+    align-content: center;
+}
+
+.text1 {
+    height: 100px;
+    width: 450px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    transform: translate(30%, -200%);
+}
+
+.block1{
+    background: #00BF63;
+    width: 450px;
+    height: 30px;
+    position: relative;
+    transform: translate(3%, -196%);
+}
+
+.block2{
+    background: #00BF63;
+    width: 650px;
+    height: 30px;
+    position: relative;
+    transform: translate(3%, -190%);
+}
+
+.block3{
+    background: #00BF63;
+    width: 650px;
+    height: 30px;
+    position: relative;
+    transform: translate(3%, -184%);
+}
+
+.text4 {
+    height: 100px;
+    width: 450px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: translate(30%, -50%);
+}
+
+.block4{
+    background: black;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    transform: translate(4%, 110%);
+}
+
+.block5{
+    background: black;
+    width: 500px;
+    height: 20px;
+    position: relative;
+    transform: translate(8%, 120%);
+}
+
+.text6{
+    transform: translateX(14%);
+}
+
+.creative{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.import{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container img{
+    max-width: 100%;
+    height: auto;
+}
+
+.product1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.product1{
+    width: 200px;
+    position: absolute;
+    margin: 0px 700px 0px 0px;
+}
+
+.diseño{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product2{
+    width: 200px;
+    position: absolute;
+}
+
+.desarrollo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product3 {
+    width: 200px;
+    position: absolute;
+    margin: 0px 0px 0px 700px;
+}
+
+.publicacion{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.end{
+    height:100px ;
+    width: 98%;
+    transform: translate(1%, 100%);
+    background-color: #00BF63;
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.addres{
+    margin: 0px 200px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.link{
+    margin: 0px 200px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.phone{
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+

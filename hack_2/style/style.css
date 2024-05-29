@@ -1,0 +1,33 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+.conteiner{
+    background:#93B5C9 ;
+    height: 100px;
+    width: 100%;
+}
+
+.menu{
+    background: #AB2849;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.box{
+    background:#AB2849;
+    height: 100px;
+    width: 1000px;
+    margin: 0 0 25px 0;
+    float: left;
+}
+
+.end{
+    background:#AB2849;
+    height: 100px;
+    width: 1000px;
+    margin: 25px auto 25px auto;
+    clear: both;
+}

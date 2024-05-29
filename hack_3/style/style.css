@@ -1,0 +1,52 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+.conteiner{
+    background:#93B5C9 ;
+    height: 100px;
+    width: 100%;
+}
+
+.menu{
+    background: #AB2849;
+    height: 200px;
+    width: 100%;
+}
+
+.father1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.box1{
+    background:#AB2849;
+    height: 100px;
+    width: 800px;
+}
+
+.father2{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.box2{
+    background:#AB2849;
+    height: 100px;
+    width: 395px;
+    margin: 0 5px 0 5px;
+}
+
+.end{
+    background:#AB2849;
+    height: 100px;
+    width: 100%;
+    margin-top: 25px;}
